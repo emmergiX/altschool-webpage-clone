@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AltSchool Student Portal - Sign up and Sign in">
+  <title>Assessment 1 | AltSchool Student Portal</title>
+</head>
+<body>
+  <a href="#main-content">Skip to main content</a>
+
+  <header>
+    <nav aria-label="Global navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="form.html" aria-current="page">Student Portal</a></li>
+      </ul>
+    </nav>
+    <p><strong>Alt School</strong></p>
+  </header>
+
+  <main id="main-content">
+
+    <nav aria-label="Sign up or sign in">
+      <ul>
+        <li><a href="#sign-up">Sign up</a></li>
+        <li><a href="#sign-in">Sign in</a></li>
+      </ul>
+    </nav>
+
+    <section id="sign-in" aria-labelledby="sign-in-heading">
+      <h1 id="sign-in-heading">Sign in</h1>
+      <p>Enter your email address and password to securely log in to AltSchool Student Portal</p>
+
+      <form action="#" method="post">
+        <p>
+          <label for="signin-email">Email <abbr title="required">*</abbr></label><br>
+          <input type="email" id="signin-email" name="email" placeholder="john.doe@example.com" autocomplete="email" required>
+        </p>
+        <p>
+          <label for="signin-password">Password <abbr title="required">*</abbr></label><br>
+          <input type="password" id="signin-password" name="password" placeholder="********" autocomplete="current-password" required>
+        </p>
+        <p>
+          <button type="submit">Proceed to Dashboard &rarr;</button>
+        </p>
+      </form>
+
+      <p>Forgot your password? <a href="#">Reset Now!</a></p>
+
+      <p>OR</p>
+
+      <p>
+        <button type="button">Login with Google</button>
+      </p>
+    </section>
+
+    <hr>
+
+    <section id="sign-up" aria-labelledby="sign-up-heading">
+      <h2 id="sign-up-heading">Sign up</h2>
+      <p>Create your account to access the AltSchool Student Portal</p>
+
+      <form action="#" method="post">
+        <p>
+          <label for="signup-first-name">First name <abbr title="required">*</abbr></label><br>
+          <input type="text" id="signup-first-name" name="first_name" placeholder="John" autocomplete="given-name" required>
+        </p>
+        <p>
+          <label for="signup-last-name">Last name <abbr title="required">*</abbr></label><br>
+          <input type="text" id="signup-last-name" name="last_name" placeholder="Doe" autocomplete="family-name" required>
+        </p>
+        <p>
+          <label for="signup-email">Email <abbr title="required">*</abbr></label><br>
+          <input type="email" id="signup-email" name="email" placeholder="john.doe@example.com" autocomplete="email" required>
+        </p>
+        <p>
+          <label for="signup-phone">Phone number <abbr title="required">*</abbr></label><br>
+          <input type="tel" id="signup-phone" name="phone" autocomplete="tel" required>
+        </p>
+        <p>
+          <label for="signup-password">Password <abbr title="required">*</abbr></label><br>
+          <input type="password" id="signup-password" name="password" placeholder="********" autocomplete="new-password" minlength="8" required>
+        </p>
+        <p>
+          <label for="signup-confirm">Confirm password <abbr title="required">*</abbr></label><br>
+          <input type="password" id="signup-confirm" name="confirm_password" placeholder="********" autocomplete="new-password" minlength="8" required>
+        </p>
+        <p>
+          <input type="checkbox" id="signup-terms" name="terms" required>
+          <label for="signup-terms">I agree to the terms and conditions <abbr title="required">*</abbr></label>
+        </p>
+        <p>
+          <button type="submit">Create account &rarr;</button>
+        </p>
+      </form>
+
+      <p>OR</p>
+
+      <p>
+        <button type="button">Sign up with Google</button>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <address>
+      Emmanuel Ayomide Agbojule<br>
+      Lagos, Nigeria
+    </address>
+    <p><small>&copy; 2026 Emmanuel Ayomide Agbojule. All rights reserved.</small></p>
+  </footer>
+</body>
+</html>
